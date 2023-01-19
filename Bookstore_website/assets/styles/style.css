@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    /* background-color: #0DCAF0; */
+    color: white;
+}
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+  
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.category-wrapper {
+    border-radius: 50%;
+    width: 140px;
+    background-color: antiquewhite;
+}
+
+.category-wrapper img {
+    width: 100px;
+}
+
+#book .card {
+    width: 250px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.book-thumbnail .book-title {
+    color: #055160;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.book-thumbnail .author-name {
+    color: #0AA2C0;
+    font-size: 14px;
+}
+
+.book-thumbnail .book-price {
+    color: #EFBC6B;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* 
+#footer {
+    background-color: #0DCAF0;
+} */
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
